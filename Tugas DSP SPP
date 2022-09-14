@@ -1,0 +1,59 @@
+public class SppDsp {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        System.out.println("Pilih jalur masuk");
+        System.out.println("SBMPTN");
+        System.out.println("SNPTN");
+        System.out.println("MANDIRI");
+        System.out.println("---------");
+        String jalur = in.next();
+       
+        
+        if(jalur.equals("SBMPTN")){
+             System.out.println("Pilih golongan Pendapatan");
+       String golongan = in.next();
+       if(golongan.equals("A")){
+           System.out.println("DSP = 5.000.000");
+           System.out.println("SPP = 500,000");
+       }else if(golongan.equals("B")){
+            System.out.println("DSP = 15.000.000");
+            System.out.println("SPP = 1.000.000");
+       }else if(golongan.equals("C")){
+           System.out.println("DSP = 30.000.000");
+           System.out.println("SPP = 2.000.000");
+       }else{
+           System.out.println("Maaf tidak ada golongan yang anda cari ");
+       }
+       
+        }if(jalur.equals("SNPTN"))
+            System.out.println("Pilih golongan pendapatan");
+            String golongan =in.next();
+            if(golongan.equals("A")){
+                System.out.println("DSP = 7.000.000");
+                System.out.println("SPP = 500.000");
+            }else if(golongan.equals("B")){
+            System.out.println("DSP = 17.000.000");
+            System.out.println("SPP = 1.000.000");
+            }else if(golongan.equals("C")){
+            System.out.println("DSP = 35.000.000");
+            System.out.println("SPP = 2.000.000");
+            }else {
+                System.out.println("Maaf golongan anda tidak ada");
+                
+        }if(jalur.equals("MANDIRI")){
+    if(golongan.equals("A")){
+                System.out.println("DSP = 10.000.000");
+                System.out.println("SPP = 1.000.000");
+}else if(golongan.equals("B")){
+        System.out.println("DSP = 25.000.000");
+        System.out.println("SPP = 2.000.000");
+}else if(golongan.equals("C")){
+        System.out.println("DSP = 50.000.000");
+        System.out.println("SPP = 3.000.000");
+}else{
+        System.out.println("Maaf golongan anda tidak ada");
+}
+    }}
+    
+}
